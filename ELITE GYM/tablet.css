@@ -1,0 +1,210 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: arial, georgia;
+    z-index: 1;
+    font-size: 16px;
+   
+}
+
+
+
+header{
+    background-color: black;
+    position: absolute;
+    width:100%;
+    z-index: 100
+}
+   /* Barra de navegacion */
+nav{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em; 
+    width: 100%;
+    text-align: center;
+    font-weight: 100%;
+    vertical-align: middle; 
+}
+
+.navbar-logo{
+    background-color: black;
+    width: 95%;
+    float: none;        
+    display: block;
+
+  }
+   
+
+  ul{
+    list-style: none;
+    height:fit-content;
+    position:relative
+  }
+
+
+  .menu li>a{
+      padding: 0.4em 
+  }
+
+  .menu li>a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color 0.5s
+    
+  }
+
+    .menu>li{
+    float: none;
+    transition: background-color 0.5s
+    }
+
+.menu>li>ul{
+    display: none;     
+}
+
+.menu>li:hover{
+    background-color:indianred;
+    display: block;
+    float:none;
+}
+    /* 
+ .menu>li:hover>ul {
+    display:block;
+    float:none;    
+    background-color: black;
+
+}
+.menu>li>ul>li:hover>a {
+    background-color:indianred;
+    float: none;
+    display: block;
+}
+ */
+    
+iframe {
+    width: 500px;
+    height:350px
+}
+
+
+
+    
+.img-gym {
+    display:block;
+    margin:auto;
+    width:88%
+    }
+
+    /* Texto */
+
+.text{
+    padding: 50px;
+    font-size:7px;
+    line-height:27px;
+    letter-spacing:1.1px;
+    text-align:center;
+    vertical-align: middle;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+   /* Footer */
+
+   .footer {
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    height: 3.5em;
+    color: white;
+    text-align:center;
+    vertical-align: middle;
+    padding: 20px;
+    margin-top: 250px
+
+}
+
+
+div h3 {
+    color:indianred;
+
+}
+
+div h2 {
+    color:indianred;
+
+}
+main {
+    max-width: 100%;
+    position: relative;
+    top: 200px;
+}
+
+
+.clases-pag{
+    font-weight: bolder;
+    padding: 10px
+}
+
+
+caption {
+    text-align:left;
+}
+
+
+.imgclass {
+    width:100%
+}
+
+
+p::selection{background-color: rgb(211, 140, 112);}
+h3::selection{background-color: rgb(211, 140, 112);}
+a::selection{background-color: rgb(211, 140, 112);}
+img::selection{background-color: rgb(211, 140, 112);}
+caption::selection{background-color: rgb(211, 140, 112);}
+ul::selection{background-color: rgb(211, 140, 112);}
+li::selection{background-color: rgb(211, 140, 112);}
+td::selection{background-color: rgb(211, 140, 112);}
+tr::selection{background-color: rgb(211, 140, 112);}
+thead::selection{background-color: rgb(211, 140, 112);}
+tbody::selection{background-color: rgb(211, 140, 112);}
+div::selection{background-color: rgb(211, 140, 112);}
+br::selection{background-color: rgb(211, 140, 112);}
+th::selection{background-color: rgb(211, 140, 112);}
+form::selection{background-color: rgb(211, 140, 112);}
+fieldset::selection{background-color: rgb(211, 140, 112);}
+legend::selection{background-color: rgb(211, 140, 112);}
+label::selection{background-color: rgb(211, 140, 112);}
+input::selection{background-color: rgb(211, 140, 112);}
+span::selection{background-color: rgb(211, 140, 112);}
+
+
+/* Iconos*/
+
+
+.iconos {
+    display: flex;
+    align-items:Center;
+    justify-content: center;
+
+}
+
+.iconos ul li {
+display: inline-block;
+width: 50px;
+text-align: center
+}
+
+.facebook {
+    color: white;
+    padding: 5px
+}
+
+.instagram {
+    color: white;
+    padding: 5px
+}
+
+

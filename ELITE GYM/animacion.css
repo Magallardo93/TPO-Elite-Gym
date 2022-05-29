@@ -1,0 +1,22 @@
+
+.imgclass
+{ 
+    float: right;
+    justify-content: space-around;
+   
+    
+}
+.imgclass:hover {-webkit-transform:scale(1.3);
+    transform:scale(1.1);
+   
+}
+
+
+.parclass { 
+    display: inline-block;
+    justify-content: space-around;
+}
+
+
+.img-gym:hover{
+    filter: grayscale(100%)}

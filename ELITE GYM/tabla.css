@@ -1,0 +1,76 @@
+table.tabla {
+	display:inline-block;
+	min-height:70%;
+	width:90%;
+	color: #06425c;
+	border-spacing:2px;
+	padding: 0 4% 0 4%;
+	margin: 1%;
+}
+table > caption {
+	text-align: left;
+	background-color: #ea7047;
+	color: #ffffff;
+	font-size: 0.9em; 
+	padding:1% ;
+	margin:0.5% ;
+}
+thead> tr > th {; 
+    background-color:orange; 
+	border: 1px solid  white;
+	text-align:center;
+	vertical-align:center;
+    font-size:15px;  
+    margin: 1%; 
+    padding:1%;
+}
+
+.row {
+	padding:1%;
+	margin:1%;
+}
+
+table.tabla>tbody> th,td
+ {	
+	width:1%;
+    margin: 1%;
+	padding:1%;
+	height:3%;
+	border: 2px outset white;
+	vertical-align:center;
+	text-align: center;
+
+}
+th {
+	text-align: center;
+	background: #ffffff;
+	border: 1px outset grey;
+
+}
+
+td {
+    height: 8px;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.horas{
+	margin: 0.2em;
+	padding: 0;
+	background-color:#c9b188 ;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+
+    
+.clases { 
+    padding:0; 
+    margin:0; 
+    background-color: #efc8b2;
+    height:20px
+}
+
+.precios {
+    margin: 0.4em
+}
